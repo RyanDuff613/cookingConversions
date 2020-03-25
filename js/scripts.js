@@ -8,8 +8,7 @@ $(document).ready(function(){
     event.preventDefault();
     var userGrams = parseInt($('#inputGrams').val());
     var converted = convertToOunces(userGrams);
-    console.log(userGrams);
-    console.log(converted)
     $('#conversion').text(userGrams + ' grams is '+converted+' ounces');
   });
+  
 });
